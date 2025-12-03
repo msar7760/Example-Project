@@ -16,12 +16,6 @@ const shuffle = (arr) => {
     return a;
 }
 
-// ------------------------------------
-// LOCAL MODAL COMPONENT (INSIDE FILE)
-// ------------------------------------
-
-// ------------------------------------
-
 const Silhouette = () => {
     const emptyPlaced = shapes.reduce((a, s) => ({ ...a, [s.id]: false }), {});
     const [placed, setPlaced] = useState(emptyPlaced);
